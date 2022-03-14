@@ -1,4 +1,6 @@
 package app.gkuroda.sampleapplication.ui
 
-class MainActivityViewModel {
+import androidx.lifecycle.ViewModel
+
+class MainActivityViewModel : ViewModel() {
 }

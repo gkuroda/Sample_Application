@@ -5,6 +5,6 @@ import dagger.android.support.DaggerApplication
 
 class SampleApp: DaggerApplication()  {
     override fun applicationInjector(): AndroidInjector<out DaggerApplication> {
-        TODO("Not yet implemented")
+        return  app.gkuroda.sampleapplication.dagger.DaggerApplicationComponent.factory().create(this)
     }
 }
